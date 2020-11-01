@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>List</title>
+  <style>
+    #Products {color: brown}
+    #Tablecloth {color: lightcoral}
+    #Notebook {color: darkslateblue}
+    #Bread {color: blue}
+    #Tea {color: cornflowerblue}
+  </style>
+</head>
+<body>
+<h3>Cписок покупок:</h3>
+<p>
+ <ol>
+  <li>
+    <div id="Products">Продукты:</div>
+    <ul>Молоко</ul>
+    <ul>Хлеб</ul>
+    <ul>Масло</ul>
+    <ul>Чай</ul>
+    <ul>"К чаю"</ul>
+  </li>
+  <li>Цветочный горшок</li>
+  <div id="Tablecloth"><li>Скатерть</li></div>
+  <li>Карандаш</li>
+  <div id="Notebook"><li>Тетрадь</li></div>
+ </ol>
+</p>
+<p>
+<ol>
+  <li>
+    Продукты:
+    <ul>Молоко</ul>
+    <div id="Bread"><ul>Хлеб</ul></div>
+    <ul>Масло</ul>
+    <div id="Tea"><ul>Чай</ul></div>
+    <ul>"К чаю"</ul>
+  </li>
+  <li>Цветочный горшок</li>
+  <li>Скатерть</li>
+  <li>Карандаш</li>
+  <li>Тетрадь</li>
+</ol>
+</p>
+</body>
+</html>
